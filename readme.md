@@ -6,3 +6,23 @@
 
 2. При проведении операции чтения SynchronizedMap работает всегда быстрее, за постоянное время,
 при любом количестве элементов.
+
+Время не чтение:
+
+Чтение 1000 элементов:
+
+ConcurrentHashMap - 3
+
+SynchronizedMap - 1
+
+Чтение 10000 элементов:
+
+ConcurrentHashMap - 8
+
+SynchronizedMap - 1
+
+Чтение 100000 элементов:
+
+ConcurrentHashMap - 9
+
+SynchronizedMap - 1
